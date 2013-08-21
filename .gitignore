@@ -1,0 +1,6 @@
+*.xcuserstate
+*.xcbkptlist
+*.xcscheme
+*.plist
+.DS_Store
+Pods/*

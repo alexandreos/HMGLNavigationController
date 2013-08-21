@@ -1,0 +1,3 @@
+[submodule "HMGLTransitions"]
+	path = HMGLTransitions
+	url = https://github.com/Split82/HMGLTransitions.git

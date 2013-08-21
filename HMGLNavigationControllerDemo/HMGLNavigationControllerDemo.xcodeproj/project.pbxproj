@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA1E77417C4734F00134E20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1E77317C4734F00134E20 /* UIKit.framework */; };
+		ACA1E77617C4734F00134E20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1E77517C4734F00134E20 /* Foundation.framework */; };
+		ACA1E77817C4734F00134E20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1E77717C4734F00134E20 /* CoreGraphics.framework */; };
+		ACA1E7F117C4749900134E20 /* ClothTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E7E217C4749800134E20 /* ClothTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACA1E7F217C4749900134E20 /* DoorsTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E7E417C4749800134E20 /* DoorsTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACA1E7F317C4749900134E20 /* FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E7E617C4749800134E20 /* FlipTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACA1E7F417C4749900134E20 /* HMGLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E7E817C4749900134E20 /* HMGLTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACA1E7F517C4749900134E20 /* HMGLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E7EA17C4749900134E20 /* HMGLTransitionManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACA1E7F617C4749900134E20 /* HMGLTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E7EC17C4749900134E20 /* HMGLTransitionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACA1E7F717C4749900134E20 /* RotateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E7EE17C4749900134E20 /* RotateTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACA1E7F817C4749900134E20 /* Switch3DTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E7F017C4749900134E20 /* Switch3DTransition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ACA1E80117C475E600134E20 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1E80017C475E600134E20 /* QuartzCore.framework */; };
+		ACA1E80317C475FC00134E20 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1E80217C475FC00134E20 /* OpenGLES.framework */; };
+		ACA1E83B17C483F600134E20 /* HMGLDoorsPopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E82817C483F600134E20 /* HMGLDoorsPopSegue.m */; };
+		ACA1E83C17C483F600134E20 /* HMGLDoorsPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E82A17C483F600134E20 /* HMGLDoorsPushSegue.m */; };
+		ACA1E83D17C483F600134E20 /* HMGLFlipPopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E82C17C483F600134E20 /* HMGLFlipPopSegue.m */; };
+		ACA1E83E17C483F600134E20 /* HMGLFlipPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E82E17C483F600134E20 /* HMGLFlipPushSegue.m */; };
+		ACA1E83F17C483F600134E20 /* HMGLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E83017C483F600134E20 /* HMGLNavigationController.m */; };
+		ACA1E84017C483F600134E20 /* HMGLRotatePopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E83217C483F600134E20 /* HMGLRotatePopSegue.m */; };
+		ACA1E84117C483F600134E20 /* HMGLRotatePushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E83417C483F600134E20 /* HMGLRotatePushSegue.m */; };
+		ACA1E84217C483F600134E20 /* HMGLSwitch3DPopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E83617C483F600134E20 /* HMGLSwitch3DPopSegue.m */; };
+		ACA1E84317C483F600134E20 /* HMGLSwitch3DPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E83817C483F600134E20 /* HMGLSwitch3DPushSegue.m */; };
+		ACA1E84417C483F600134E20 /* HMGLNavigationTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E83A17C483F600134E20 /* HMGLNavigationTransitionManager.m */; };
+		ACA1E85617C484D800134E20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E84617C484D800134E20 /* AppDelegate.m */; };
+		ACA1E85717C484D800134E20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA1E84717C484D800134E20 /* Default-568h@2x.png */; };
+		ACA1E85817C484D800134E20 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA1E84817C484D800134E20 /* Default.png */; };
+		ACA1E85917C484D800134E20 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA1E84917C484D800134E20 /* Default@2x.png */; };
+		ACA1E85A17C484D800134E20 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E84B17C484D800134E20 /* DetailViewController.m */; };
+		ACA1E85B17C484D800134E20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACA1E84D17C484D800134E20 /* InfoPlist.strings */; };
+		ACA1E85C17C484D800134E20 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA1E84F17C484D800134E20 /* MainStoryboard.storyboard */; };
+		ACA1E85E17C484D800134E20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E85317C484D800134E20 /* main.m */; };
+		ACA1E85F17C484D800134E20 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E85517C484D800134E20 /* MasterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACA1E77017C4734F00134E20 /* HMGLNavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMGLNavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA1E77317C4734F00134E20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACA1E77517C4734F00134E20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACA1E77717C4734F00134E20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACA1E7E117C4749800134E20 /* ClothTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothTransition.h; sourceTree = "<group>"; };
+		ACA1E7E217C4749800134E20 /* ClothTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTransition.m; sourceTree = "<group>"; };
+		ACA1E7E317C4749800134E20 /* DoorsTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorsTransition.h; sourceTree = "<group>"; };
+		ACA1E7E417C4749800134E20 /* DoorsTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorsTransition.m; sourceTree = "<group>"; };
+		ACA1E7E517C4749800134E20 /* FlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTransition.h; sourceTree = "<group>"; };
+		ACA1E7E617C4749800134E20 /* FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTransition.m; sourceTree = "<group>"; };
+		ACA1E7E717C4749800134E20 /* HMGLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransition.h; sourceTree = "<group>"; };
+		ACA1E7E817C4749900134E20 /* HMGLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransition.m; sourceTree = "<group>"; };
+		ACA1E7E917C4749900134E20 /* HMGLTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransitionManager.h; sourceTree = "<group>"; };
+		ACA1E7EA17C4749900134E20 /* HMGLTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransitionManager.m; sourceTree = "<group>"; };
+		ACA1E7EB17C4749900134E20 /* HMGLTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransitionView.h; sourceTree = "<group>"; };
+		ACA1E7EC17C4749900134E20 /* HMGLTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransitionView.m; sourceTree = "<group>"; };
+		ACA1E7ED17C4749900134E20 /* RotateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateTransition.h; sourceTree = "<group>"; };
+		ACA1E7EE17C4749900134E20 /* RotateTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateTransition.m; sourceTree = "<group>"; };
+		ACA1E7EF17C4749900134E20 /* Switch3DTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switch3DTransition.h; sourceTree = "<group>"; };
+		ACA1E7F017C4749900134E20 /* Switch3DTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Switch3DTransition.m; sourceTree = "<group>"; };
+		ACA1E80017C475E600134E20 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ACA1E80217C475FC00134E20 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ACA1E82717C483F600134E20 /* HMGLDoorsPopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLDoorsPopSegue.h; sourceTree = "<group>"; };
+		ACA1E82817C483F600134E20 /* HMGLDoorsPopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLDoorsPopSegue.m; sourceTree = "<group>"; };
+		ACA1E82917C483F600134E20 /* HMGLDoorsPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLDoorsPushSegue.h; sourceTree = "<group>"; };
+		ACA1E82A17C483F600134E20 /* HMGLDoorsPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLDoorsPushSegue.m; sourceTree = "<group>"; };
+		ACA1E82B17C483F600134E20 /* HMGLFlipPopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLFlipPopSegue.h; sourceTree = "<group>"; };
+		ACA1E82C17C483F600134E20 /* HMGLFlipPopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLFlipPopSegue.m; sourceTree = "<group>"; };
+		ACA1E82D17C483F600134E20 /* HMGLFlipPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLFlipPushSegue.h; sourceTree = "<group>"; };
+		ACA1E82E17C483F600134E20 /* HMGLFlipPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLFlipPushSegue.m; sourceTree = "<group>"; };
+		ACA1E82F17C483F600134E20 /* HMGLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLNavigationController.h; sourceTree = "<group>"; };
+		ACA1E83017C483F600134E20 /* HMGLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLNavigationController.m; sourceTree = "<group>"; };
+		ACA1E83117C483F600134E20 /* HMGLRotatePopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLRotatePopSegue.h; sourceTree = "<group>"; };
+		ACA1E83217C483F600134E20 /* HMGLRotatePopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLRotatePopSegue.m; sourceTree = "<group>"; };
+		ACA1E83317C483F600134E20 /* HMGLRotatePushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLRotatePushSegue.h; sourceTree = "<group>"; };
+		ACA1E83417C483F600134E20 /* HMGLRotatePushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLRotatePushSegue.m; sourceTree = "<group>"; };
+		ACA1E83517C483F600134E20 /* HMGLSwitch3DPopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLSwitch3DPopSegue.h; sourceTree = "<group>"; };
+		ACA1E83617C483F600134E20 /* HMGLSwitch3DPopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLSwitch3DPopSegue.m; sourceTree = "<group>"; };
+		ACA1E83717C483F600134E20 /* HMGLSwitch3DPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLSwitch3DPushSegue.h; sourceTree = "<group>"; };
+		ACA1E83817C483F600134E20 /* HMGLSwitch3DPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLSwitch3DPushSegue.m; sourceTree = "<group>"; };
+		ACA1E83917C483F600134E20 /* HMGLNavigationTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLNavigationTransitionManager.h; sourceTree = "<group>"; };
+		ACA1E83A17C483F600134E20 /* HMGLNavigationTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLNavigationTransitionManager.m; sourceTree = "<group>"; };
+		ACA1E84517C484D800134E20 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACA1E84617C484D800134E20 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACA1E84717C484D800134E20 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACA1E84817C484D800134E20 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACA1E84917C484D800134E20 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACA1E84A17C484D800134E20 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ACA1E84B17C484D800134E20 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ACA1E84E17C484D800134E20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		ACA1E85017C484D800134E20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ACA1E85117C484D800134E20 /* HMGLNavigationControllerDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HMGLNavigationControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		ACA1E85217C484D800134E20 /* HMGLNavigationControllerDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HMGLNavigationControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		ACA1E85317C484D800134E20 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACA1E85417C484D800134E20 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		ACA1E85517C484D800134E20 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA1E76D17C4734F00134E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA1E80317C475FC00134E20 /* OpenGLES.framework in Frameworks */,
+				ACA1E80117C475E600134E20 /* QuartzCore.framework in Frameworks */,
+				ACA1E77417C4734F00134E20 /* UIKit.framework in Frameworks */,
+				ACA1E77617C4734F00134E20 /* Foundation.framework in Frameworks */,
+				ACA1E77817C4734F00134E20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA1E76717C4734F00134E20 = {
+			isa = PBXGroup;
+			children = (
+				ACA1E84517C484D800134E20 /* AppDelegate.h */,
+				ACA1E84617C484D800134E20 /* AppDelegate.m */,
+				ACA1E84717C484D800134E20 /* Default-568h@2x.png */,
+				ACA1E84817C484D800134E20 /* Default.png */,
+				ACA1E84917C484D800134E20 /* Default@2x.png */,
+				ACA1E84A17C484D800134E20 /* DetailViewController.h */,
+				ACA1E84B17C484D800134E20 /* DetailViewController.m */,
+				ACA1E84C17C484D800134E20 /* en.lproj */,
+				ACA1E85117C484D800134E20 /* HMGLNavigationControllerDemo-Info.plist */,
+				ACA1E85217C484D800134E20 /* HMGLNavigationControllerDemo-Prefix.pch */,
+				ACA1E85317C484D800134E20 /* main.m */,
+				ACA1E85417C484D800134E20 /* MasterViewController.h */,
+				ACA1E85517C484D800134E20 /* MasterViewController.m */,
+				ACA1E82617C483F600134E20 /* HMGLNavigationController */,
+				ACA1E7E017C4749800134E20 /* HMGLTransitions */,
+				ACA1E77217C4734F00134E20 /* Frameworks */,
+				ACA1E77117C4734F00134E20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA1E77117C4734F00134E20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1E77017C4734F00134E20 /* HMGLNavigationControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA1E77217C4734F00134E20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1E80217C475FC00134E20 /* OpenGLES.framework */,
+				ACA1E80017C475E600134E20 /* QuartzCore.framework */,
+				ACA1E77317C4734F00134E20 /* UIKit.framework */,
+				ACA1E77517C4734F00134E20 /* Foundation.framework */,
+				ACA1E77717C4734F00134E20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA1E7E017C4749800134E20 /* HMGLTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1E7E117C4749800134E20 /* ClothTransition.h */,
+				ACA1E7E217C4749800134E20 /* ClothTransition.m */,
+				ACA1E7E317C4749800134E20 /* DoorsTransition.h */,
+				ACA1E7E417C4749800134E20 /* DoorsTransition.m */,
+				ACA1E7E517C4749800134E20 /* FlipTransition.h */,
+				ACA1E7E617C4749800134E20 /* FlipTransition.m */,
+				ACA1E7E717C4749800134E20 /* HMGLTransition.h */,
+				ACA1E7E817C4749900134E20 /* HMGLTransition.m */,
+				ACA1E7E917C4749900134E20 /* HMGLTransitionManager.h */,
+				ACA1E7EA17C4749900134E20 /* HMGLTransitionManager.m */,
+				ACA1E7EB17C4749900134E20 /* HMGLTransitionView.h */,
+				ACA1E7EC17C4749900134E20 /* HMGLTransitionView.m */,
+				ACA1E7ED17C4749900134E20 /* RotateTransition.h */,
+				ACA1E7EE17C4749900134E20 /* RotateTransition.m */,
+				ACA1E7EF17C4749900134E20 /* Switch3DTransition.h */,
+				ACA1E7F017C4749900134E20 /* Switch3DTransition.m */,
+			);
+			name = HMGLTransitions;
+			path = ../HMGLTransitions/Classes/HMGLTransitions;
+			sourceTree = "<group>";
+		};
+		ACA1E82617C483F600134E20 /* HMGLNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1E82F17C483F600134E20 /* HMGLNavigationController.h */,
+				ACA1E83017C483F600134E20 /* HMGLNavigationController.m */,
+				ACA1E83917C483F600134E20 /* HMGLNavigationTransitionManager.h */,
+				ACA1E83A17C483F600134E20 /* HMGLNavigationTransitionManager.m */,
+				ACA1E82717C483F600134E20 /* HMGLDoorsPopSegue.h */,
+				ACA1E82817C483F600134E20 /* HMGLDoorsPopSegue.m */,
+				ACA1E82917C483F600134E20 /* HMGLDoorsPushSegue.h */,
+				ACA1E82A17C483F600134E20 /* HMGLDoorsPushSegue.m */,
+				ACA1E82B17C483F600134E20 /* HMGLFlipPopSegue.h */,
+				ACA1E82C17C483F600134E20 /* HMGLFlipPopSegue.m */,
+				ACA1E82D17C483F600134E20 /* HMGLFlipPushSegue.h */,
+				ACA1E82E17C483F600134E20 /* HMGLFlipPushSegue.m */,
+				ACA1E83117C483F600134E20 /* HMGLRotatePopSegue.h */,
+				ACA1E83217C483F600134E20 /* HMGLRotatePopSegue.m */,
+				ACA1E83317C483F600134E20 /* HMGLRotatePushSegue.h */,
+				ACA1E83417C483F600134E20 /* HMGLRotatePushSegue.m */,
+				ACA1E83517C483F600134E20 /* HMGLSwitch3DPopSegue.h */,
+				ACA1E83617C483F600134E20 /* HMGLSwitch3DPopSegue.m */,
+				ACA1E83717C483F600134E20 /* HMGLSwitch3DPushSegue.h */,
+				ACA1E83817C483F600134E20 /* HMGLSwitch3DPushSegue.m */,
+			);
+			name = HMGLNavigationController;
+			path = ../HMGLNavigationController;
+			sourceTree = "<group>";
+		};
+		ACA1E84C17C484D800134E20 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1E84D17C484D800134E20 /* InfoPlist.strings */,
+				ACA1E84F17C484D800134E20 /* MainStoryboard.storyboard */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA1E76F17C4734F00134E20 /* HMGLNavigationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA1E79617C4734F00134E20 /* Build configuration list for PBXNativeTarget "HMGLNavigationControllerDemo" */;
+			buildPhases = (
+				ACA1E76C17C4734F00134E20 /* Sources */,
+				ACA1E76D17C4734F00134E20 /* Frameworks */,
+				ACA1E76E17C4734F00134E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMGLNavigationControllerDemo;
+			productName = "HMGLTransitions+UINavigationControllerDemo";
+			productReference = ACA1E77017C4734F00134E20 /* HMGLNavigationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA1E76817C4734F00134E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "iAOS Software";
+			};
+			buildConfigurationList = ACA1E76B17C4734F00134E20 /* Build configuration list for PBXProject "HMGLNavigationControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACA1E76717C4734F00134E20;
+			productRefGroup = ACA1E77117C4734F00134E20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA1E76F17C4734F00134E20 /* HMGLNavigationControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA1E76E17C4734F00134E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA1E85717C484D800134E20 /* Default-568h@2x.png in Resources */,
+				ACA1E85817C484D800134E20 /* Default.png in Resources */,
+				ACA1E85917C484D800134E20 /* Default@2x.png in Resources */,
+				ACA1E85B17C484D800134E20 /* InfoPlist.strings in Resources */,
+				ACA1E85C17C484D800134E20 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA1E76C17C4734F00134E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA1E7F117C4749900134E20 /* ClothTransition.m in Sources */,
+				ACA1E7F217C4749900134E20 /* DoorsTransition.m in Sources */,
+				ACA1E7F317C4749900134E20 /* FlipTransition.m in Sources */,
+				ACA1E7F417C4749900134E20 /* HMGLTransition.m in Sources */,
+				ACA1E7F517C4749900134E20 /* HMGLTransitionManager.m in Sources */,
+				ACA1E7F617C4749900134E20 /* HMGLTransitionView.m in Sources */,
+				ACA1E7F717C4749900134E20 /* RotateTransition.m in Sources */,
+				ACA1E7F817C4749900134E20 /* Switch3DTransition.m in Sources */,
+				ACA1E83B17C483F600134E20 /* HMGLDoorsPopSegue.m in Sources */,
+				ACA1E83C17C483F600134E20 /* HMGLDoorsPushSegue.m in Sources */,
+				ACA1E83D17C483F600134E20 /* HMGLFlipPopSegue.m in Sources */,
+				ACA1E83E17C483F600134E20 /* HMGLFlipPushSegue.m in Sources */,
+				ACA1E83F17C483F600134E20 /* HMGLNavigationController.m in Sources */,
+				ACA1E84017C483F600134E20 /* HMGLRotatePopSegue.m in Sources */,
+				ACA1E84117C483F600134E20 /* HMGLRotatePushSegue.m in Sources */,
+				ACA1E84217C483F600134E20 /* HMGLSwitch3DPopSegue.m in Sources */,
+				ACA1E84317C483F600134E20 /* HMGLSwitch3DPushSegue.m in Sources */,
+				ACA1E84417C483F600134E20 /* HMGLNavigationTransitionManager.m in Sources */,
+				ACA1E85617C484D800134E20 /* AppDelegate.m in Sources */,
+				ACA1E85A17C484D800134E20 /* DetailViewController.m in Sources */,
+				ACA1E85E17C484D800134E20 /* main.m in Sources */,
+				ACA1E85F17C484D800134E20 /* MasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACA1E84D17C484D800134E20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA1E84E17C484D800134E20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACA1E84F17C484D800134E20 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA1E85017C484D800134E20 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA1E79417C4734F00134E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACA1E79517C4734F00134E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA1E79717C4734F00134E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMGLNavigationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HMGLNavigationControllerDemo-Info.plist";
+				PRODUCT_NAME = HMGLNavigationControllerDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACA1E79817C4734F00134E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMGLNavigationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HMGLNavigationControllerDemo-Info.plist";
+				PRODUCT_NAME = HMGLNavigationControllerDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA1E76B17C4734F00134E20 /* Build configuration list for PBXProject "HMGLNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA1E79417C4734F00134E20 /* Debug */,
+				ACA1E79517C4734F00134E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA1E79617C4734F00134E20 /* Build configuration list for PBXNativeTarget "HMGLNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA1E79717C4734F00134E20 /* Debug */,
+				ACA1E79817C4734F00134E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA1E76817C4734F00134E20 /* Project object */;
+}
