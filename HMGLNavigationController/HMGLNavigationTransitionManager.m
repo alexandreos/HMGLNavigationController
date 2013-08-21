@@ -82,25 +82,25 @@
 - (void)transitionViewDidFinishTransition:(HMGLTransitionView*)_transitionView
 {
 	// finish transition
-	[transitionView removeFromSuperview];
+	[self.transitionView removeFromSuperview];
 	[tempOverlayView removeFromSuperview];
 	
 	// view controllers
     if (transitionType == HMGLTransitionTypeControllerPresentation)
     {
-		[oldController presentModalViewController:currentController animated:NO];
+		[self.oldController presentModalViewController:self.currentController animated:NO];
 	}
 	else if (transitionType == HMGLTransitionTypeControllerDismission)
     {
-		[oldController dismissModalViewControllerAnimated:NO];
+		[self.oldController dismissModalViewControllerAnimated:NO];
 	}
 	else if (transitionType == HMGLTransitionTypeControllerPush)
     {
-		[oldController.navigationController pushViewController:currentController animated:NO];
+		[self.oldController.navigationController pushViewController:self.currentController animated:NO];
 	}
 	else if (transitionType == HMGLTransitionTypeControllerPop)
     {
-		[oldController.navigationController popToViewController:currentController animated:NO];
+		[self.oldController.navigationController popToViewController:self.currentController animated:NO];
 	}
 	
 	// transition type
