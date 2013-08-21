@@ -4,3 +4,5 @@
 *.plist
 .DS_Store
 Pods/*
+
+HMGLTransitions/
