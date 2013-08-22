@@ -21,3 +21,7 @@ This custom navigation controller supports storyboard, including push and pop se
 - iOS 5.0 or greater.
 - ARC.
 - [HMGLTransitions](https://github.com/Split82/HMGLTransitions)
+
+## License
+
+The license for HMGLNavigationController is contained in the "LICENSE" file.
