@@ -94,6 +94,9 @@
     {
 		[self.oldController dismissModalViewControllerAnimated:NO];
 	}
+    // Suppressing warnings about the enum comparison
+    #pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Wtautological-compare"
 	else if (transitionType == HMGLTransitionTypeControllerPush)
     {
 		[self.oldController.navigationController pushViewController:self.currentController animated:NO];
@@ -102,6 +105,7 @@
     {
 		[self.oldController.navigationController popToViewController:self.currentController animated:NO];
 	}
+    #pragma clang diagnostic pop
 	
 	// transition type
 	transitionType = HMGLTransitionTypeNone;

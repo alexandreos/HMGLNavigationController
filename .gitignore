@@ -7,3 +7,5 @@ Pods/*
 HMGLTransitions/
 
 HMGLNavigationControllerDemo/HMGLNavigationControllerDemo.xcodeproj/xcuserdata/*
+
+*.xccheckout
