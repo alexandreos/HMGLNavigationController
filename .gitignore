@@ -1,8 +1,9 @@
 *.xcuserstate
 *.xcbkptlist
 *.xcscheme
-*.plist
 .DS_Store
 Pods/*
 
 HMGLTransitions/
+
+HMGLNavigationControllerDemo/HMGLNavigationControllerDemo.xcodeproj/xcuserdata/*
