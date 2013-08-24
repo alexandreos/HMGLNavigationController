@@ -60,6 +60,8 @@
 
 - (void)pushViewController:(UIViewController *)viewController fromViewController:(UIViewController *)fromViewController
 {
+    // Disable user interaction on the navigation bar during the animation
+    fromViewController.navigationController.navigationBar.userInteractionEnabled = NO;
 	transitionType = (HMGLTransitionType)HMGLTransitionTypeControllerPush;
 	self.oldController = fromViewController;
 	self.currentController = viewController;
@@ -68,6 +70,8 @@
 
 - (void)popViewController:(UIViewController *)viewController
 {
+    // Disable user interaction on the navigation bar during the animation
+    viewController.navigationController.navigationBar.userInteractionEnabled = NO;
 	transitionType = (HMGLTransitionType)HMGLTransitionTypeControllerPop;
 	self.oldController = viewController;
     
@@ -100,10 +104,12 @@
 	else if (transitionType == HMGLTransitionTypeControllerPush)
     {
 		[self.oldController.navigationController pushViewController:self.currentController animated:NO];
+        self.oldController.navigationController.navigationBar.userInteractionEnabled = YES;
 	}
 	else if (transitionType == HMGLTransitionTypeControllerPop)
     {
 		[self.oldController.navigationController popToViewController:self.currentController animated:NO];
+        self.oldController.navigationController.navigationBar.userInteractionEnabled = YES;
 	}
     #pragma clang diagnostic pop
 	

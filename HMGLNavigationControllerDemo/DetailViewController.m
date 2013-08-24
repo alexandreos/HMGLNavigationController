@@ -51,7 +51,5 @@
 - (IBAction)btPopToRootVCTouched:(id)sender
 {
     [self.navigationController popToRootViewControllerAnimated:YES];
-    UIBarButtonItem *bt = sender;
-    bt.enabled = NO;
 }
 @end
