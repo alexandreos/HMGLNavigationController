@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC6C972717CC543E006C9D86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC6C972317CC543E006C9D86 /* InfoPlist.strings */; };
+		AC6C972817CC543E006C9D86 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6C972517CC543E006C9D86 /* MainStoryboard.storyboard */; };
 		ACA1E77417C4734F00134E20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1E77317C4734F00134E20 /* UIKit.framework */; };
 		ACA1E77617C4734F00134E20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1E77517C4734F00134E20 /* Foundation.framework */; };
 		ACA1E77817C4734F00134E20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1E77717C4734F00134E20 /* CoreGraphics.framework */; };
@@ -35,13 +37,13 @@
 		ACA1E85817C484D800134E20 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA1E84817C484D800134E20 /* Default.png */; };
 		ACA1E85917C484D800134E20 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA1E84917C484D800134E20 /* Default@2x.png */; };
 		ACA1E85A17C484D800134E20 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E84B17C484D800134E20 /* DetailViewController.m */; };
-		ACA1E85B17C484D800134E20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACA1E84D17C484D800134E20 /* InfoPlist.strings */; };
-		ACA1E85C17C484D800134E20 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA1E84F17C484D800134E20 /* MainStoryboard.storyboard */; };
 		ACA1E85E17C484D800134E20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E85317C484D800134E20 /* main.m */; };
 		ACA1E85F17C484D800134E20 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1E85517C484D800134E20 /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC6C972417CC543E006C9D86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC6C972617CC543E006C9D86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		ACA1E77017C4734F00134E20 /* HMGLNavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMGLNavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA1E77317C4734F00134E20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ACA1E77517C4734F00134E20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,8 +93,6 @@
 		ACA1E84917C484D800134E20 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ACA1E84A17C484D800134E20 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		ACA1E84B17C484D800134E20 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		ACA1E84E17C484D800134E20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		ACA1E85017C484D800134E20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		ACA1E85117C484D800134E20 /* HMGLNavigationControllerDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HMGLNavigationControllerDemo-Info.plist"; sourceTree = "<group>"; };
 		ACA1E85217C484D800134E20 /* HMGLNavigationControllerDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HMGLNavigationControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
 		ACA1E85317C484D800134E20 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,22 +116,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ACA1E76717C4734F00134E20 = {
+		AC6C972917CC548D006C9D86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC6C972317CC543E006C9D86 /* InfoPlist.strings */,
+				AC6C972517CC543E006C9D86 /* MainStoryboard.storyboard */,
+				ACA1E84717C484D800134E20 /* Default-568h@2x.png */,
+				ACA1E84817C484D800134E20 /* Default.png */,
+				ACA1E84917C484D800134E20 /* Default@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC6C972A17CC54A2006C9D86 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				ACA1E84517C484D800134E20 /* AppDelegate.h */,
 				ACA1E84617C484D800134E20 /* AppDelegate.m */,
-				ACA1E84717C484D800134E20 /* Default-568h@2x.png */,
-				ACA1E84817C484D800134E20 /* Default.png */,
-				ACA1E84917C484D800134E20 /* Default@2x.png */,
 				ACA1E84A17C484D800134E20 /* DetailViewController.h */,
 				ACA1E84B17C484D800134E20 /* DetailViewController.m */,
-				ACA1E84C17C484D800134E20 /* en.lproj */,
+				ACA1E85417C484D800134E20 /* MasterViewController.h */,
+				ACA1E85517C484D800134E20 /* MasterViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AC6C972B17CC54AF006C9D86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				ACA1E85117C484D800134E20 /* HMGLNavigationControllerDemo-Info.plist */,
 				ACA1E85217C484D800134E20 /* HMGLNavigationControllerDemo-Prefix.pch */,
 				ACA1E85317C484D800134E20 /* main.m */,
-				ACA1E85417C484D800134E20 /* MasterViewController.h */,
-				ACA1E85517C484D800134E20 /* MasterViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC6C972C17CC54D3006C9D86 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AC6C972917CC548D006C9D86 /* Resources */,
+				AC6C972A17CC54A2006C9D86 /* Classes */,
+				AC6C972B17CC54AF006C9D86 /* Supporting Files */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		ACA1E76717C4734F00134E20 = {
+			isa = PBXGroup;
+			children = (
+				AC6C972C17CC54D3006C9D86 /* Demo */,
 				ACA1E82617C483F600134E20 /* HMGLNavigationController */,
 				ACA1E7E017C4749800134E20 /* HMGLTransitions */,
 				ACA1E77217C4734F00134E20 /* Frameworks */,
@@ -211,15 +244,6 @@
 			path = ../HMGLNavigationController;
 			sourceTree = "<group>";
 		};
-		ACA1E84C17C484D800134E20 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				ACA1E84D17C484D800134E20 /* InfoPlist.strings */,
-				ACA1E84F17C484D800134E20 /* MainStoryboard.storyboard */,
-			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,8 +298,8 @@
 				ACA1E85717C484D800134E20 /* Default-568h@2x.png in Resources */,
 				ACA1E85817C484D800134E20 /* Default.png in Resources */,
 				ACA1E85917C484D800134E20 /* Default@2x.png in Resources */,
-				ACA1E85B17C484D800134E20 /* InfoPlist.strings in Resources */,
-				ACA1E85C17C484D800134E20 /* MainStoryboard.storyboard in Resources */,
+				AC6C972717CC543E006C9D86 /* InfoPlist.strings in Resources */,
+				AC6C972817CC543E006C9D86 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,18 +338,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ACA1E84D17C484D800134E20 /* InfoPlist.strings */ = {
+		AC6C972317CC543E006C9D86 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACA1E84E17C484D800134E20 /* en */,
+				AC6C972417CC543E006C9D86 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		ACA1E84F17C484D800134E20 /* MainStoryboard.storyboard */ = {
+		AC6C972517CC543E006C9D86 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACA1E85017C484D800134E20 /* en */,
+				AC6C972617CC543E006C9D86 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
