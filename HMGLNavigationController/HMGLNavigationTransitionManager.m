@@ -105,11 +105,13 @@
     {
 		[self.oldController.navigationController pushViewController:self.currentController animated:NO];
         self.oldController.navigationController.navigationBar.userInteractionEnabled = YES;
+        self.currentController.navigationController.navigationBar.userInteractionEnabled = YES;
 	}
 	else if (transitionType == HMGLTransitionTypeControllerPop)
     {
 		[self.oldController.navigationController popToViewController:self.currentController animated:NO];
         self.oldController.navigationController.navigationBar.userInteractionEnabled = YES;
+        self.currentController.navigationController.navigationBar.userInteractionEnabled = YES;
 	}
     #pragma clang diagnostic pop
 	
