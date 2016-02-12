@@ -10,7 +10,7 @@ This custom navigation controller supports storyboard, including push and pop se
 - [CocoaPods](http://cocoapods.org) is the recommended way to add HMGLNavigationController to your project.
 - If you prefer, you can simply [download HMGLNavigationController](https://github.com/alexandreos/HMGLNavigationController/zipball/master) and add the files from the HMGLNavigationController folder to your project. This repository also includes a demo project.
 
-### Cocoapods
+### CocoaPods
 
 1. Add a pod entry for HMGLNavigationController to your Podfile `pod 'HMGLNavigationController', '~> 0.0.1'`
 2. Install the pod(s) by running `pod install`.
